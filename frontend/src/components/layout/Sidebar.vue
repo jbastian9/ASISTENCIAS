@@ -38,6 +38,42 @@
           <v-list-item-title class="menu-label">Estructura</v-list-item-title>
         </v-list-item>
       </v-list-group>
+
+      <v-list-group prepend-icon="mdi-calendar-check-outline" no-action>
+        <template #activator="{ props }">
+          <v-list-item v-bind="props">
+            <v-list-item-title class="menu-label">Asistencias</v-list-item-title>
+          </v-list-item>
+        </template>
+
+        <v-list-item :to="'#'" link>
+          <template #prepend>
+            <v-icon>mdi-calendar-edit</v-icon>
+          </template>
+          <v-list-item-title class="menu-label">Reuniones</v-list-item-title>
+        </v-list-item>
+
+        <v-list-item :to="'#'" link>
+          <template #prepend>
+            <v-icon>mdi-form-select</v-icon>
+          </template>
+          <v-list-item-title class="menu-label">Formularios</v-list-item-title>
+        </v-list-item>
+
+        <v-list-item :to="'#'" link>
+          <template #prepend>
+            <v-icon>mdi-chart-box-outline</v-icon>
+          </template>
+          <v-list-item-title class="menu-label">Reportes</v-list-item-title>
+        </v-list-item>
+
+        <v-list-item :to="'#'" link>
+          <template #prepend>
+            <v-icon>mdi-calendar-month-outline</v-icon>
+          </template>
+          <v-list-item-title class="menu-label">Calendario</v-list-item-title>
+        </v-list-item>
+      </v-list-group>
     </v-list>
   </v-navigation-drawer>
 </template>
