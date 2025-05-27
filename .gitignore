@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cython debug symbols
+cython_debug/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# Pytest
+.cache
+*.cover
+*.py,cover
+coverage.xml
+htmlcov/
+pytestdebug.log
+
+# VS Code
+.vscode/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Alembic
+alembic/versions/*.pyc
+
+# Database
+*.sqlite3
+*.db
+
+# Node modules (frontend)
+frontend/node_modules/
+frontend/dist/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Docker
+**/docker-compose.override.yml
+
+# Sphinx docs
+docs/_build/
+docs/api/
+
+# Prettier & eslint cache
+frontend/.eslintcache
+frontend/.prettierignore
+
+# System
+.DS_Store
+Thumbs.db
